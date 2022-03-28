@@ -1,0 +1,147 @@
+nav{
+  font-family: tajwalMedium;
+}
+nav .navbar-nav {
+  gap: 30px;
+}
+nav .navbar-nav .nav-item {
+  height: 46px;
+}
+
+nav .navbar-nav .nav-item button{
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+nav .navbar-nav .nav-item .nav-link {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  transition: 0.3s;
+  padding: 0;
+}
+
+nav .navbar-nav .nav-item .nav-link.active {
+  color: #fc4f4f;
+}
+
+nav .navbar-nav .nav-item .nav-link:hover {
+  color: #fc4f4f;
+}
+
+nav .navbar-nav .nav-item .line {
+  width: 40%;
+  height: 2px;
+  background-color: #fc4f4f;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  margin: 10px auto;
+  display: none;
+}
+
+nav .navbar-nav .nav-item.active .line {
+  display: flex;
+}
+nav .navbar-nav .nav-item:hover .line {
+  width: 40%;
+  height: 2px;
+  background-color: #fc4f4f;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  margin: 10px auto;
+}
+
+@media (min-width: 300px) {
+  nav .navbar-nav .nav-item .line {
+    display: none;
+  }
+  nav .navbar-nav {
+    text-align: center;
+  }
+  nav .logo{
+      width: 50%;
+  }
+  nav .navbar-nav .nav-item .nav-link{
+      font-size: 18px;
+  }
+}
+@media (min-width: 576px) {
+  
+  nav .navbar-nav .nav-item .line {
+    display: none;
+  }
+  nav .navbar-nav {
+    text-align: center;
+  }
+    nav .logo{
+      width: 50%;
+  }
+    nav .navbar-nav .nav-item .nav-link{
+      font-size: 18px;
+  }
+
+  nav .box{
+    width: 100%;
+    margin: 6px 0 0 0;
+  }
+}
+
+@media (min-width: 768px) {
+  
+  nav .navbar-nav .nav-item .line {
+    display: none;
+  }
+  nav .navbar-nav {
+    text-align: center;
+  }
+    nav .logo{
+      width: 50%;
+  }
+    nav .navbar-nav .nav-item .nav-link{
+      font-size: 18px;
+  }
+    nav .box{
+    width: 100%;
+    margin: 6px 0 0 0;
+  }
+
+  .hero .col-md-6:last-of-type{
+    justify-content: flex-end;
+  }
+}
+
+
+
+@media (min-width: 992px) { 
+        nav .logo{
+      width: 100%;
+  }
+    nav .navbar-nav .nav-item .nav-link{
+      font-size: 18px;
+  }
+    nav .box{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    margin-left: 5%;
+  }
+ }
+
+
+@media (min-width: 1200px) { 
+        nav .logo{
+      width: 100%;
+  }
+ }
+
+
+ @font-face {
+  font-family: tajwalMedium;
+  src: url('../../assets/fonts/Tajawal-Medium.ttf');
+}

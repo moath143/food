@@ -1,0 +1,88 @@
+.testimonial{
+    padding: 50px 0;
+}
+
+.testimonial .stars{
+    display: flex;
+    flex-direction: row;
+    transform: scaleX(-1);
+    justify-content: flex-end;
+}
+
+.testimonial .text{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+    color: #90A3B4;
+    margin-top: -70px;
+    font-family: tajwalMeduim;
+}
+
+.testimonial .slick-slider{
+    margin: 70px 0;
+}
+
+.testimonial .slick-prev:before,
+.testimonial .slick-next:before{
+    color: #FC4F4F;
+    font-size: 30px;
+}
+
+.testimonial .slick-slider .item{
+    width: 80% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 20px !important;
+    margin: 0 auto;
+}
+
+.testimonial .slick-dots{
+    bottom: -50px
+}
+
+.testimonial .slick-dots li button:before{
+    font-size: 10px;
+}
+
+.testimonial .slick-dots .slick-active button:before{
+    color: #FC4F4F;
+}
+.testimonial .slick-dots li button:hover:before{
+    color: #FC4F4F;
+}
+
+.testimonial .slick-slider .item .info p{
+    margin: 0 !important;
+    text-align: left;
+}
+
+.testimonial .slick-slider .item .info p:first-of-type{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #FC4F4F;
+    font-family: tajwalBold;
+}
+
+.testimonial .slick-slider .item .info p:last-of-type{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #90A3B4;
+    font-family: tajwalMeduim;
+}
+
+
+ @font-face {
+  font-family: tajwalBold;
+  src: url('../../assets/fonts/Tajawal-Bold.ttf');
+}
+
+
+ @font-face {
+  font-family: tajwalMeduim;
+  src: url('../../assets/fonts/Tajawal-Medium.ttf');
+}

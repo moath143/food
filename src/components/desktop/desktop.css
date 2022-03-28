@@ -1,0 +1,73 @@
+.desktop{
+    background-color: #f7f7f7;
+    padding: 50px 0;
+}
+
+.desktop p:first-of-type{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 52px;
+    letter-spacing: 0.3px;
+    color: #2D3748;
+    font-family: tajwalMeduim;
+}
+
+
+.desktop p:nth-of-type(2){
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0.3px;
+    color: #2D3748;
+    font-family: tajwalRegular;
+}
+
+.desktop p:last-of-type{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FC4F4F;
+    font-family: tajwalBold;
+}
+
+
+.desktop ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.desktop ul li{
+    display: flex;
+    gap: 15px;
+}
+
+.desktop ul li span{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.3px;
+    color: #2D3748;
+}
+
+
+ @font-face {
+  font-family: tajwalBold;
+  src: url('../../assets/fonts/Tajawal-Bold.ttf');
+}
+
+
+ @font-face {
+  font-family: tajwalMeduim;
+  src: url('../../assets/fonts/Tajawal-Medium.ttf');
+}
+
+ @font-face {
+  font-family: tajwalRegular;
+  src: url('../../assets/fonts/Tajawal-Regular.ttf');
+}
+
+

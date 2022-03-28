@@ -1,0 +1,21 @@
+footer{
+    padding: 50px 0;
+}
+
+footer p{
+    margin: 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+    font-family: tajwalMeduim;
+}
+
+
+
+
+ @font-face {
+  font-family: tajwalMeduim;
+  src: url('../../assets/fonts/Tajawal-Medium.ttf');
+}

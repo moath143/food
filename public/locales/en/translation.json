@@ -1,0 +1,40 @@
+{
+    "page": {
+        "title": "Aklah | Home page",
+        "description": "Superb Chefs, Healthy Hearty Customers!"
+    
+    },
+    "navbar": {
+        "services": "Services",
+        "payment": "Shipping and Payment",
+        "testimonials": "Testimonials",
+        "arabic": "Arabic",
+        "english": "English"
+    },
+    "hero":{
+        "title": "Palestinian Food Reminds You of the Old Gold Days",
+        "subtitle": "Enjoy the traditional Palestinian Cuisine"
+    },
+    "application": {
+        "title": "Our Palestinian Chefs weave their magic over delicious meals Every bite, says it all!",
+        "subtitle": "Try now the Palestinian Cuisine with family and friends! Choose meals and desserts you love. Cheer them up, and have your time and effort saved by Aklah. Sharing is Caring!",
+        "button": "Download Our App"
+    },
+    "mobile": {
+        "title" : "With Aklah, Be the Chef!",
+        "subtitle": "Are you dreaming about starting your business? Are you eager for letting people be fat of happiness and your credit card fat of cash? All you need is to join our family... The world for Palestinian Cuisine yearns. Your profits, easily earn. With Aklah, you are the Chef!",
+        "button": "Download The App Now"
+    },
+    "desktop": {
+        "title": "Instantly Deliverable to Your House! Aklah shortens the distance...",
+        "subtitle": "Welcome to our Aklah! Kindly browse through our app. To sweeten your gatherings, customize your order. With a click, your order is instantly deliverable to wherever you are.",
+        "list": {
+            "one": "Fast delivery and safe payment",
+            "two": "Track your order through the map",
+            "three": "Pay cash, or PayPal",
+            "four": "Buy online; pick up from the chef!"
+        },
+        "hint": "With Aklah, your gatherings glow with happiness!"
+    },
+    "footer": "With Aklah, your gatherings glow with happiness!"
+}

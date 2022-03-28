@@ -1,0 +1,56 @@
+.services{
+    padding: 50px 0;
+    font-family: tajwalBold;
+}
+
+.services h1{
+    padding: 40px 0;
+}
+
+.services .card{
+    border: none;
+}
+
+.services .card-img-top{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.services .card p{
+    font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+color: #5E424E;
+}
+
+
+@media (min-width: 576px) { 
+    .services .flex-style{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .services .card{
+        margin: 20px 0;
+    }
+ }
+
+
+@media (min-width: 768px) { 
+        .services .flex-style{
+        display: flex;
+        flex-direction: row;
+
+    }
+    .services .card{
+        margin: auto;
+    }
+ }
+
+ @font-face {
+  font-family: tajwalBold;
+  src: url('../../assets/fonts/Tajawal-Bold.ttf');
+}

@@ -1,0 +1,23 @@
+.payment{
+    background-color: #f6f6f6;
+    text-align: center;
+    padding: 80px 0
+}
+
+.payment h1{
+    padding: 0 0 40px 0;
+    font-family: tajwalBold;
+}
+
+
+ @font-face {
+  font-family: tajwalBold;
+  src: url('../../assets/fonts/Tajawal-Bold.ttf');
+}
+
+
+ @font-face {
+  font-family: tajwalMeduim;
+  src: url('../../assets/fonts/Tajawal-Medium.ttf');
+}
+

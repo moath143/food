@@ -1,0 +1,52 @@
+.mobile{
+    padding: 50px 0
+}
+
+.mobile .title{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 52px;
+    letter-spacing: 0.3px;
+    color: #FC4F4F;
+    font-family: tajwalMeduim;
+}
+
+.mobile p.paragraph{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.3px;
+    color: #2D3748;
+    padding: 20px 0;
+    font-family: tajwalRegular;
+}
+
+.mobile p.download{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FC4F4F;
+    font-family: tajwalBold;
+}
+
+.mobile .download{
+    display: flex;
+    gap: 20px;
+}
+
+
+ @font-face {
+  font-family: tajwalBold;
+  src: url('../../assets/fonts/Tajawal-Bold.ttf');
+}
+
+
+ @font-face {
+  font-family: tajwalMeduim;
+  src: url('../../assets/fonts/Tajawal-Medium.ttf');
+}
+
+ @font-face {
+  font-family: tajwalRegular;
+  src: url('../../assets/fonts/Tajawal-Regular.ttf');
+}

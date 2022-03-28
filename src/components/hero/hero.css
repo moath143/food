@@ -1,0 +1,65 @@
+.hero{
+    padding: 50px 0;
+    font-family: tajwalBold;
+}
+
+.hero h1{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    color: #323333;
+}
+
+.hero p{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #808080;
+    padding: 20px 0;
+}
+
+.hero .download{
+    display: flex;
+    gap: 20px
+}
+
+@media (min-width: 576px) { 
+    .hero h1,
+    .hero p{
+        text-align: center;
+    }
+
+    .hero .download{
+        display: flex;
+        justify-content: center;
+    }
+ }
+
+
+@media (min-width: 768px) { 
+        .hero p{
+        text-align: left;
+    }
+
+    .hero .download{
+        display: flex;
+        justify-content: flex-start;
+    }
+ }
+
+@media (min-width: 992px) { 
+        .hero h1,
+    .hero p{
+        text-align: left;
+    }
+
+    .hero .download{
+        display: flex;
+        justify-content: flex-start;
+    }
+ }
+
+  @font-face {
+  font-family: tajwalBold;
+  src: url('../../assets/fonts/Tajawal-Bold.ttf');
+}

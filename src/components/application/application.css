@@ -1,0 +1,51 @@
+.application{
+    padding: 50px 0
+}
+
+.application h1{
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+    color: #5E424E;
+    font-family: tajwalBold;
+}
+
+.application p{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #808080;
+    padding: 20px 0;
+    font-family: tajwalRegular;
+}
+
+.application .download button{
+    background-color: #FC4F4F;
+    color: #fff;
+    border: 1px solid #FC4F4F;
+    border-radius: 7px;
+    outline: none;
+    cursor: pointer;
+    transition: .3s;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 10px 40px;
+}
+
+.application .download button:hover{
+    background-color: #fff;
+    color: #FC4F4F;
+    border: 1px solid #FC4F4F;
+    border-radius: 7px;
+}
+
+ @font-face {
+  font-family: tajwalBold;
+  src: url('../../assets/fonts/Tajawal-Bold.ttf');
+}
+
+
+ @font-face {
+  font-family: tajwalRegular;
+  src: url('../../assets/fonts/Tajawal-Regular.ttf');
+}

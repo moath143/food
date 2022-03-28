@@ -17,7 +17,7 @@ const settings = {
 
 const Testimonials = () => {
   return (
-    <section className="testimonial">
+    <section className="testimonial" id="testimonials">
       <Container>
         <Row>
           <Col md={2}></Col>

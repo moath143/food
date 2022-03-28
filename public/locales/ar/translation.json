@@ -4,6 +4,7 @@
     "description": "الشيف الصح مع الزبون الصح!"
   },
   "navbar": {
+    "home": "الرئيسية",
     "services": "خدماتنا",
     "payment": "الشحن والدفع",
     "testimonials": "آراء المستخدمين",

@@ -14,7 +14,7 @@ const Hero = () => {
   }
   
   return (
-    <section className="hero">
+    <section className="hero" id='home'>
       <Container>
         <Row>
           <Col md={6} className='d-flex flex-column justify-content-center'>

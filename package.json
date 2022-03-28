@@ -1,5 +1,6 @@
 {
   "name": "food",
+  "homepage": "http://food.101bloom.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

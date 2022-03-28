@@ -5,18 +5,26 @@
     
     },
     "navbar": {
+        "home": "Home",
         "services": "Services",
         "payment": "Shipping and Payment",
         "testimonials": "Testimonials",
-        "arabic": "Arabic",
+        "arabic": "العربية",
         "english": "English"
     },
     "hero":{
         "title": "Palestinian Food Reminds You of the Old Gold Days",
         "subtitle": "Enjoy the traditional Palestinian Cuisine"
     },
+
+    
+    "services": {
+        "delivery": "Delivery Services",
+        "booking": "Order Online",
+        "food": "Food services"
+    },
     "application": {
-        "title": "Our Palestinian Chefs weave their magic over delicious meals Every bite, says it all!",
+        "title": "Our Palestinian Chefs weave their magic over delicious meals <br /> Every bite, says it all!",
         "subtitle": "Try now the Palestinian Cuisine with family and friends! Choose meals and desserts you love. Cheer them up, and have your time and effort saved by Aklah. Sharing is Caring!",
         "button": "Download Our App"
     },

@@ -7,7 +7,7 @@ import Card3 from '../../assets/card3.svg';
 
 const Services = () => {
   return (
-    <section className="services">
+    <section className="services" id="services">
       <Container>
         <Row>
           <Col md={12}>

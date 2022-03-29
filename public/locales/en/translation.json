@@ -55,7 +55,9 @@
         "hint": "With Aklah, the more, the merrier!"
     },
     "testimonials": {
-        "paragraph": "\"You are one of the best websites and applications through which you can order Palestinian food online. Through my experience with it, I advise you to download the app, and enjoy the taste!\""
+        "paragraph": "\"You are one of the best websites and applications through which you can order Palestinian food online. Through my experience with it, I advise you to download the app, and enjoy the taste!\"",
+        "name": "Yousef Ismael",
+        "title": "React JS Developer"
     },
     "footer": "Superb Chefs, Healthy Hearty Customers!"
 }

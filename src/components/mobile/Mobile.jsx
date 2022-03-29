@@ -16,6 +16,9 @@ const Mobile = () => {
       <Container>
         <Row>
           <Col md={6}>
+            <img src={Mobiles} alt="" />
+          </Col>
+          <Col md={6}>
             <div>
               <p className="title"> {t("mobile.title")} </p>
             </div>
@@ -33,9 +36,6 @@ const Mobile = () => {
                 <img src={Android} alt="" />
               </a>
             </div>
-          </Col>
-          <Col md={6}>
-            <img src={Mobiles} alt="" />
           </Col>
         </Row>
       </Container>

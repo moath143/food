@@ -39,8 +39,8 @@ const Testimonials = () => {
                   <img src={Person} alt="" />
                 </div>
                 <div className="info">
-                  <p>Jone Doe</p>
-                  <p>this is description</p>
+                  <p> {t('testimonials.name')} </p>
+                  <p> {t('testimonials.title')} </p>
                 </div>
               </div>
               <div className="item">
@@ -48,8 +48,8 @@ const Testimonials = () => {
                   <img src={Person} alt="" />
                 </div>
                 <div className="info">
-                  <p>Jone Doe</p>
-                  <p>this is description</p>
+                  <p> {t('testimonials.name')} </p>
+                  <p> {t('testimonials.title')} </p>
                 </div>
               </div>
               <div className="item">
@@ -57,8 +57,8 @@ const Testimonials = () => {
                   <img src={Person} alt="" />
                 </div>
                 <div className="info">
-                  <p>Jone Doe</p>
-                  <p>this is description</p>
+                  <p> {t('testimonials.name')} </p>
+                  <p> {t('testimonials.title')} </p>
                 </div>
               </div>
               <div className="item">
@@ -66,8 +66,8 @@ const Testimonials = () => {
                   <img src={Person} alt="" />
                 </div>
                 <div className="info">
-                  <p>Jone Doe</p>
-                  <p>this is description</p>
+                  <p> {t('testimonials.name')} </p>
+                  <p> {t('testimonials.title')} </p>
                 </div>
               </div>
               <div className="item">
@@ -75,8 +75,8 @@ const Testimonials = () => {
                   <img src={Person} alt="" />
                 </div>
                 <div className="info">
-                  <p>Jone Doe</p>
-                  <p>this is description</p>
+                  <p> {t('testimonials.name')} </p>
+                  <p> {t('testimonials.title')} </p>
                 </div>
               </div>
             </Slider>

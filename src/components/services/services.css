@@ -1,6 +1,7 @@
 .services{
-    padding: 50px 0;
+    padding: 50px 0 70px 0;
     font-family: tajwalBold;
+    background-image: url('../../assets/background.png');
 }
 
 .services h1{
@@ -9,6 +10,7 @@
 
 .services .card{
     border: none;
+    background: transparent;
 }
 
 .services .card-img-top{

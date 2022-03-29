@@ -17,13 +17,14 @@ const Mobile = () => {
         <Row>
           <Col md={6}>
             <div>
-              {/* <img src={Yours} alt="" /> */}
-              <p className='title'> {t('mobile.title')} </p>
+              <p className="title"> {t("mobile.title")} </p>
             </div>
             <p className="paragraph">
-              {t('mobile.subtitle')}
+              {t("mobile.subtitle.text1")} <i> {t("mobile.subtitle.word1")} </i>{" "}
+              <span> {t("mobile.subtitle.text2")} </span>
+              <i> {t("mobile.subtitle.word2")} </i>
+              <span> {t("mobile.subtitle.text3")} </span>
             </p>
-            <p className='download'> {t('mobile.button')} </p>
             <div className="download">
               <a>
                 <img src={Apple} alt="" />

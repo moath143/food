@@ -12,7 +12,7 @@ const Payment = () => {
       <Container>
         <Row>
           <Col md={12}>
-            <h1>Shipping and payment</h1>
+            <h1> {t('payment.title')} </h1>
             <img
               src={
                 i18n.dir() === "rtl"

@@ -1,7 +1,7 @@
 {
     "page": {
-        "title": "Aklah | Home page",
-        "description": "Superb Chefs, Healthy Hearty Customers!"
+        "title": "Palestinian food delivery app reminds you of the original taste | aklah app",
+        "description": "With Aklah, Enjoy the traditional Palestinian Cuisine; Palestinian Food Reminds You of the Old Gold Days!"
     
     },
     "navbar": {
@@ -19,30 +19,43 @@
 
     
     "services": {
+        "title": "Our Services",
         "delivery": "Delivery Services",
         "booking": "Order Online",
         "food": "Food services"
     },
     "application": {
-        "title": "Our Palestinian Chefs weave their magic over delicious meals <br /> Every bite, says it all!",
-        "subtitle": "Try now the Palestinian Cuisine with family and friends! Choose meals and desserts you love. Cheer them up, and have your time and effort saved by Aklah. Sharing is Caring!",
+        "title": "Our Palestinian Chefs weave magic over their delicious meals.\n Every bite says it all!",
+        "subtitle": "Try now the Palestinian Cuisine with family and friends!\n Choose meals and desserts you love. Cheer them up, and have your time and effort saved by Aklah.\n ",
+        "span": "Sharing is Caring!",
         "button": "Download Our App"
+    },
+    "payment": {
+        "title": "Shipment and Payment"
     },
     "mobile": {
         "title" : "With Aklah, Be the Chef!",
-        "subtitle": "Are you dreaming about starting your business? Are you eager for letting people be fat of happiness and your credit card fat of cash? All you need is to join our family... The world for Palestinian Cuisine yearns. Your profits, easily earn. With Aklah, you are the Chef!",
-        "button": "Download The App Now"
+        "subtitle": {
+            "text1": "Dreaming about starting your business?\n Eager for letting people be fat of happiness and your credit card fat of cash?\n All you need is to join our family.\n The world for Palestinian Cuisine" ,
+            "word1": "Yearns.",
+            "text2": " Your profits easily",
+            "word2": "Earn. \n",
+            "text3": "With Aklah, you are the Chef!"
+        } 
     },
     "desktop": {
-        "title": "Instantly Deliverable to Your House! Aklah shortens the distance...",
-        "subtitle": "Welcome to our Aklah! Kindly browse through our app. To sweeten your gatherings, customize your order. With a click, your order is instantly deliverable to wherever you are.",
+        "title": "Instantly deliverable to your house! Aklah deliveres.",
+        "subtitle": "Welcome to our Aklah!\n Kindly browse through our app. To sweeten your gatherings, customize your order.\n  With a click, your order is deliverable hot to wherever you are.",
         "list": {
             "one": "Fast delivery and safe payment",
             "two": "Track your order through the map",
             "three": "Pay cash, or PayPal",
             "four": "Buy online; pick up from the chef!"
         },
-        "hint": "With Aklah, your gatherings glow with happiness!"
+        "hint": "With Aklah, the more, the merrier!"
     },
-    "footer": "With Aklah, your gatherings glow with happiness!"
+    "testimonials": {
+        "paragraph": "\"You are one of the best websites and applications through which you can order Palestinian food online. Through my experience with it, I advise you to download the app, and enjoy the taste!\""
+    },
+    "footer": "Superb Chefs, Healthy Hearty Customers!"
 }

@@ -19,6 +19,7 @@
     color: #2D3748;
     padding: 20px 0;
     font-family: tajwalRegular;
+    white-space: pre-line;
 }
 
 .mobile p.download{

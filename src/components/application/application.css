@@ -8,6 +8,7 @@
     line-height: 42px;
     color: #5E424E;
     font-family: tajwalBold;
+    white-space: pre-line;
 }
 
 .application p{
@@ -17,6 +18,16 @@
     color: #808080;
     padding: 20px 0;
     font-family: tajwalRegular;
+    white-space: pre-line;
+}
+
+.application p span{
+    font-style: italic;
+}
+
+.application .download{
+    display: flex;
+    gap: 20px;
 }
 
 .application .download button{

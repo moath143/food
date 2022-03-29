@@ -6,6 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Stars from "../../assets/stars.svg";
 import Person from "../../assets/person.png";
 import "./testimonial.css";
+import { useTranslation } from "react-i18next";
 
 const settings = {
   dots: true,
@@ -16,6 +17,10 @@ const settings = {
 };
 
 const Testimonials = () => {
+  const { t, i18n } = useTranslation();
+    const rtlFunc = () => {
+      return i18n.dir() === "rtl" ? "right" : "left";
+    };
   return (
     <section className="testimonial" id="testimonials">
       <Container>
@@ -25,12 +30,8 @@ const Testimonials = () => {
             <div className="stars">
               <img src={Stars} alt="" />
             </div>
-            <p className="text">
-              You are one of the best sites and applications And applications
-              <br />
-              through which you can book a private chef for your party
-              <br /> You can order the food you want, and through my experience
-              with it, I advise the collective to subscribe to it
+            <p style={{ textAlign: `${rtlFunc()}` }} className="text">
+              {t("testimonials.paragraph")}
             </p>
             <Slider {...settings}>
               <div className="item">

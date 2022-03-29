@@ -18,8 +18,8 @@ const Hero = () => {
       <Container>
         <Row>
           <Col md={6} className='d-flex flex-column justify-content-center'>
-            <h1 style={{ textAlign: `${rtlFunc()}` }}>{t("hero.title")} </h1>
             <p style={{ textAlign: `${rtlFunc()}` }}> {t("hero.subtitle")} </p>
+            <h1 style={{ textAlign: `${rtlFunc()}` }}>{t("hero.title")} </h1>
             <div className="download">
               <a>
                 <img src={Apple} alt="" />
